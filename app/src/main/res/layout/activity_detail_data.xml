@@ -29,53 +29,63 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nomor"/>
+            android:text="Nomor"
+            android:textStyle="bold"/>
 
-        <EditText
+        <TextView
+            android:id="@+id/tv_nomor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"/>
+            android:text=""/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nama"/>
+            android:text="Nama"
+            android:textStyle="bold"/>
 
-        <EditText
+        <TextView
+            android:id="@+id/tv_nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"/>
+            android:text=""/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tanggal Lahir"/>
+            android:text="Tanggal Lahir"
+            android:textStyle="bold"/>
 
-        <EditText
+        <TextView
+            android:id="@+id/tv_tanggal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="date"/>
+            android:text=""/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Jenis Kelamin"/>
+            android:text="Jenis Kelamin"
+            android:textStyle="bold"/>
 
-        <EditText
+        <TextView
+            android:id="@+id/tv_kelamin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textCapCharacters"
-            android:hint="L/P"/>
+            android:text=""/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Alamat"
+            android:textStyle="bold"
             />
 
-        <EditText
+        <TextView
+            android:id="@+id/tv_alamat"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text=""/>
 
 
     </LinearLayout>

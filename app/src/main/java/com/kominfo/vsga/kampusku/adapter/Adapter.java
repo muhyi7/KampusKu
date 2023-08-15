@@ -47,11 +47,11 @@ public class Adapter extends BaseAdapter {
             view = inflater.inflate(R.layout.list_users, null);
         }
         if (view != null) {
-            TextView name = view.findViewById(R.id.text_nama);
-            TextView email = view.findViewById(R.id.text_nomor);
+            TextView nama = view.findViewById(R.id.text_nama);
+            TextView nomor = view.findViewById(R.id.text_nomor);
             Data data = lists.get(i);
-            name.setText(data.getNama());
-            name.setText(data.getNomor());
+            nama.setText(data.getNama());
+            nomor.setText(data.getNomor());
         }
         return view;
     }

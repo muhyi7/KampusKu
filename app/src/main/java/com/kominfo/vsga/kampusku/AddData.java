@@ -1,6 +1,7 @@
 package com.kominfo.vsga.kampusku;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -13,6 +14,7 @@ import com.kominfo.vsga.kampusku.helper.Helper;
 
 public class AddData extends AppCompatActivity {
 
+
     private EditText editNomor, editNama, editTanggal, editKelamin, editAlamat;
     private Button btnSave;
     private Helper db  = new Helper(this);
@@ -22,6 +24,18 @@ public class AddData extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_data);
+
+        //tombol kembali
+        Toolbar toolbar = findViewById(R.id.app_bar);
+        setSupportActionBar(toolbar);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+                finish();
+            }
+        });
+        //tombol kembali
 
         editNomor = findViewById(R.id.edit_nomor);
         editNama = findViewById(R.id.edit_nama);

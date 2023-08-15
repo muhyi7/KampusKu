@@ -58,7 +58,14 @@ public class ViewEditData extends AppCompatActivity {
                         switch (i){
                             case 0:
                                 Intent pindahDetailData = new Intent(ViewEditData.this,DetailData.class);
+                                pindahDetailData.putExtra("id", id);
+                                pindahDetailData.putExtra("nomor", nomor);
+                                pindahDetailData.putExtra("nama", nama);
+                                pindahDetailData.putExtra("tanggal", tanggal);
+                                pindahDetailData.putExtra("kelamin", kelamin);
+                                pindahDetailData.putExtra("alamat", alamat);
                                 startActivity(pindahDetailData);
+                                break;
                             case 1:
                                 Intent pindahAddData= new Intent(ViewEditData.this, AddData.class);
                                 pindahAddData.putExtra("id", id);
