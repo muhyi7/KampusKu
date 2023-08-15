@@ -32,6 +32,7 @@
             android:text="Nomor"/>
 
         <EditText
+            android:id="@+id/edit_nomor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"/>
@@ -42,6 +43,7 @@
             android:text="Nama"/>
 
         <EditText
+            android:id="@+id/edit_nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"/>
@@ -52,6 +54,7 @@
             android:text="Tanggal Lahir"/>
 
         <EditText
+            android:id="@+id/edit_tanggal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="date"/>
@@ -62,6 +65,7 @@
             android:text="Jenis Kelamin"/>
 
         <EditText
+            android:id="@+id/edit_kelamin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
@@ -74,6 +78,7 @@
             />
 
         <EditText
+            android:id="@+id/edit_alamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
@@ -84,6 +89,7 @@
             android:gravity="bottom">
 
             <Button
+                android:id="@+id/btn_save"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Simpan"/>
