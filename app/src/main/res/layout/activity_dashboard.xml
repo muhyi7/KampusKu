@@ -32,19 +32,24 @@
             android:paddingBottom="16dp"/>
 
         <ImageButton
-            android:id="@+id/btn_tambah"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/btn_tambah"
-            android:contentDescription="Tambah Data Pengguna"/>
-
-        <ImageButton
+            android:id="@+id/btn_lihat_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/btn_lihat"
-            android:contentDescription="Masuk menu lihat dan bisa edit"/>
+            android:contentDescription="Masuk menu lihat dan bisa edit"
+            android:onClick="btn_lihat_data"/>
 
         <ImageButton
+            android:id="@+id/btn_tambah_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_tambah"
+            android:contentDescription="Tambah Data Pengguna"
+            android:onClick="btn_tambah_data"/>
+
+
+        <ImageButton
+            android:id="@+id/btn_tentang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/btn_tentang"

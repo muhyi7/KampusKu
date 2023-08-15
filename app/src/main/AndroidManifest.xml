@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Kampusku"
         tools:targetApi="31">
         <activity
+            android:name=".DetailData"
+            android:exported="false" />
+        <activity
+            android:name=".ViewEditData"
+            android:exported="false" />
+        <activity
+            android:name=".AddData"
+            android:exported="false" />
+        <activity
             android:name=".Tentang"
             android:exported="false" />
         <activity

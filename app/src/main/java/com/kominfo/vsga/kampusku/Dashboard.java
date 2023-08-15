@@ -30,4 +30,14 @@ public class Dashboard extends AppCompatActivity {
         Intent pindahTentang = new Intent(Dashboard.this, Tentang.class);
         startActivity(pindahTentang);
     }
+
+    public void btn_tambah_data(View view) {
+        Intent pindahTambahData = new Intent(Dashboard.this, AddData.class);
+        startActivity(pindahTambahData);
+    }
+
+    public void btn_lihat_data(View view) {
+        Intent pindahLihatData = new Intent(Dashboard.this, ViewEditData.class);
+        startActivity(pindahLihatData);
+    }
 }
