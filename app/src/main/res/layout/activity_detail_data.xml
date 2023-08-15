@@ -30,62 +30,76 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nomor"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableStart="@drawable/add_nomor"
+            android:drawablePadding="5dp"/>
 
         <TextView
             android:id="@+id/tv_nomor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:layout_marginBottom="12dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nama"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableStart="@drawable/add_name"
+            android:drawablePadding="5dp"/>
 
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:layout_marginBottom="12dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tanggal Lahir"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableStart="@drawable/add_date"
+            android:drawablePadding="5dp"/>
 
         <TextView
             android:id="@+id/tv_tanggal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:layout_marginBottom="12dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Jenis Kelamin"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:drawableStart="@drawable/add_gender"
+            android:drawablePadding="5dp"/>
 
         <TextView
             android:id="@+id/tv_kelamin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:layout_marginBottom="12dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Alamat"
             android:textStyle="bold"
-            />
+            android:drawableStart="@drawable/add_location"
+            android:drawablePadding="5dp"/>
 
         <TextView
             android:id="@+id/tv_alamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""/>
+            android:text=""
+            android:layout_marginBottom="12dp"/>
 
 
     </LinearLayout>
