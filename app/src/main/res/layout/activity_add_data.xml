@@ -36,7 +36,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:drawableStart="@drawable/add_nomor"/>
+            android:drawableStart="@drawable/add_nomor"
+            android:drawablePadding="2dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,7 +49,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:drawableStart="@drawable/add_name"/>
+            android:drawableStart="@drawable/add_name"
+            android:drawablePadding="2dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -60,7 +62,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="date"
-            android:hint="DD/MM/YY"/>
+            android:hint="DD/MM/YY"
+            android:drawableStart="@drawable/add_date"
+            android:drawablePadding="2dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -73,7 +77,8 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:hint="L/P"
-            android:drawableStart="@drawable/add_gender"/>
+            android:drawableStart="@drawable/add_gender"
+            android:drawablePadding="2dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -85,7 +90,8 @@
             android:id="@+id/edit_alamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/add_location"/>
+            android:drawableStart="@drawable/add_location"
+            android:drawablePadding="2dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"

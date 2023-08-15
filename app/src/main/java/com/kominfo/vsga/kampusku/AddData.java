@@ -83,6 +83,7 @@ public class AddData extends AppCompatActivity {
             Toast.makeText(this, "Silahkan Isi Data Pokok", Toast.LENGTH_SHORT).show();
         }else {
             db.insert(editNomor.getText().toString(), editNama.getText().toString(), editTanggal.getText().toString(), editKelamin.getText().toString(), editAlamat.getText().toString());
+            Toast.makeText(this, "Data Berhasil Disimpan", Toast.LENGTH_SHORT).show();
             finish();
         }
     }
@@ -91,6 +92,7 @@ public class AddData extends AppCompatActivity {
             Toast.makeText(this, "Silahkan Isi Data Pokok", Toast.LENGTH_SHORT).show();
         }else {
             db.update(Integer.parseInt(id), editNomor.getText().toString(), editNama.getText().toString(), editTanggal.getText().toString(), editKelamin.getText().toString(), editAlamat.getText().toString());
+            Toast.makeText(this, "Data Berhasil Diedit", Toast.LENGTH_SHORT).show();
             finish();
         }
     }
