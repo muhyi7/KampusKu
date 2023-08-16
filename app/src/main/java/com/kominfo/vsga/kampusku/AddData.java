@@ -57,7 +57,7 @@ public class AddData extends AppCompatActivity {
             setTitle("Edit Data");
             editNomor.setText(nomor);
             editNama.setText(nama);
-            editTanggal.setText(alamat);
+            editTanggal.setText(tanggal);
             editKelamin.setText(kelamin);
             editAlamat.setText(alamat);
         }

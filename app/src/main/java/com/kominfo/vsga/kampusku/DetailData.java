@@ -36,7 +36,7 @@ public class DetailData extends AppCompatActivity {
 
         editNomor.setText(nomor);
         editNama.setText(nama);
-        editTanggal.setText(alamat);
+        editTanggal.setText(tanggal);
         editKelamin.setText(kelamin);
         editAlamat.setText(alamat);
 
